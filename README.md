@@ -2,7 +2,7 @@ This chatbot is called Pep, short for Pep Talker.
 
 Its purpose/ main function is to be a productivity coach for Gen Zs and teenagers.
 
-Its features are:
+Its features are as follows:
 
 1) Intuitive chat interface (similar to the user’s everyday messaging app feel).
 2) Contextual memory (It remembers details from earlier messages to keep the conversation flowing naturally).
