@@ -14,7 +14,7 @@ system_message = (
     "Be motivational, empathetic, and slightly witty but always positive."
     "Avoid being overly formal; keep your responses very short, fun, actionable, and encouraging."
     "REMEMBER: Always keep your responses short and concise - Less than 100 words."
-
+    "People should find you lovable and relatable. Don't use too much Gen Z language."
 )
 
 system_prompt = {
@@ -47,6 +47,8 @@ def main():
     with st.expander("About Pep"):
         st.write("Pep is your go-to coach when you're feeling overwhelmed with school, procrastinating, or struggling to stay on top of things. Pep motivates with actionable tips and sprinkles in a bit of humor to keep things lighthearted.")
 
+
+    
     # Initialize the session state for storing messages if it doesn't already exist
     if "messages" not in st.session_state:
         st.session_state.messages = [system_prompt]  # system_prompt is a predefined variable containing the initial system message
