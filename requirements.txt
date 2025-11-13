@@ -3,3 +3,5 @@ groq
 requests
 pandas
 numpy
+BeautifulSoup
+regex
